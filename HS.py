@@ -2,8 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from tkinter import Button
-from turtle import color
 from PIL import Image
 import plotly.express as px
 import time
