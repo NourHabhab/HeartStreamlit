@@ -39,7 +39,7 @@ menu_id = hc.nav_bar(menu_definition = menu_data,
                                         'option_active':'white'})
 
 #Editing First Page of the Dashboard 
-
+if menu_id == "Home":
 
     col1,col2 = st.columns(2)
     
