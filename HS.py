@@ -40,6 +40,13 @@ menu_id = hc.nav_bar(menu_definition = menu_data,
 
 #Editing First Page of the Dashboard 
 if menu_id == "Home":
+    image = Image.open('LogoMSBA.png')
+
+    row_spacer1, row_1, row_spacer2, row_2 = st.columns((.1, .1, .3, 1.8))
+    with row_spacer1:
+        st.image(image,width=100)
+    with row_spacer2:
+        st.caption(' | HealthCare Analytics')
 
     col1,col2 = st.columns(2)
     
@@ -423,5 +430,3 @@ if menu_id == "Application":
             
         else:
             st.error('Patient is a candidate to sustain a Cardiovascular Disease(1)')
-
-    
