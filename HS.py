@@ -54,7 +54,7 @@ if menu_id == "Home":
         st.write("")
         st.markdown("#### CardioVascular Disease: A Better Understanding")
         st.write("""
-                    Cornary Artery Disease (CAD) is the leading cause of death worldwide, as it increases the occurence of heart failure and ischemic heart disease (IHD) leading to Myocardial Infarctions (MI).
+                    Cornary Vascular Disease (CVD) is the leading cause of death worldwide, as it increases the occurence of heart failure and ischemic heart disease (IHD) leading to Myocardial Infarctions (MI).
                     The narrowing of the coronary vessels with the weakning cardiac muscles will decrease the oxygen supply to the heart eventually stopping its functional state.
                     Increasing early diagnosis and the ability to predict the occurence of CAD and IHD  will decrease mortality rate and will decrease economic burden on our healthcare system.          
         """)
