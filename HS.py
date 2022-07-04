@@ -12,7 +12,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import LabelEncoder
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
-from sklearn.ensemble import RandomForestClassifier
+from  sklearn.linear_model import LogisticRegression
 
 
 #Layout 
@@ -398,7 +398,7 @@ if menu_id == "Application":
             ])
 
     #chose best model based on previous trials
-    model = RandomForestClassifier(class_weight='balanced')
+    model=LogisticRegression(penalty='l2', solver='lbfgs', random_state=1, max_iter=10000)
 
     pipeline_model = Pipeline(steps = [('transformer', cat_pipeline),
                              ('model', model)])
