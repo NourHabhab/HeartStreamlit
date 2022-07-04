@@ -92,7 +92,7 @@ if menu_id =="EDA":
     with col3:
         fig=px.histogram(HA, x="Sex",
              color='HeartDisease', barmode='group',
-             height=400,width=600,title=" Gender Difference in Cardiovasvular disease",color_discrete_map={1: "midnightblue", 0: "darkgrey"},template="simple_white")
+             height=400,width=600,title=" Gender Difference in Cardiovascular disease",color_discrete_map={1: "midnightblue", 0: "darkgrey"},template="simple_white")
 
         fig.update_yaxes( # the y-axis is in dollars
         title=None
