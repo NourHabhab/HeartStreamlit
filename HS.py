@@ -76,7 +76,7 @@ if menu_id == "Home":
             
     with col2:
         image = Image.open('iStock-530199842.jpg')
-        st.image(image,width=600)
+        st.image(image,width=500)
         st.write("***")
         
 #Second Page
